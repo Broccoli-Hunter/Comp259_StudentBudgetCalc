@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">LJensen_StudentBudgetCalc</string>
+
+    <!-- Menu Strings -->
+    <string name="menu_calcExpenses">Expenses</string>
+    <string name="menu_accept">Accept</string>
+    <string name="menu_quit">Quit</string>
+
+    <!-- Budget Summary Strings -->
+    <string name="str_BudgetSummaryTitle">Budget Summary</string>
+    <string name="str_MonthlyBudgetTitle">Monthly Budget</string>
+    <string name="str_IncomeLbl">Income:</string>
+    <string name="str_EarningsLbl">Earnings:  $</string>
+    <string name="str_LoansLbl">Loans:  $</string>
+    <string name="str_TotalIncomeLbl">Total Income: $</string>
+    <string name="str_ExpensesTitle">Expenses:</string>
+    <string name="str_CalculateExpBtn">Calculate Expenses</string>
+    <string name="str_TotalMonthExpensesLbl">Total Monthly Expenses: $</string> <!-- Budget Summary -->
+    <string name="str_TotalExpensesLbl">Total Expenses: $</string> <!-- Enter Expenses -->
+    <string name="str_SurplusShortfallLbl">Surplus/Shortfall: $</string>
+
+    <!-- Enter Expenses Strings -->
+    <string name="str_EnterExpenseAmtsTitle">Enter Expense Amounts</string>
+    <string name="str_AmountsTimePeriodLbl">Amounts are:</string>
+    <string name="str_MonthlyLbl">Monthly</string>
+    <string name="str_AnnualLbl">Annual</string>
+    <string name="str_HousingUtilitiesTitle">Housing/Utilities Costs:</string>
+    <string name="str_RentLbl">Rent:  $</string>
+    <string name="str_UtilitiesLbl">Utilities:  $</string>
+    <string name="str_InternetLbl">Internet:  $</string>
+    <string name="str_PhoneLbl">Phone:  $</string>
+    <string name="str_TotalHousingCostLbl">Total Housing Costs: $</string>
+    <string name="str_EducationTitle">Education Costs:</string>
+    <string name="str_TuitionLbl">Tuition:  $</string>
+    <string name="str_BooksLbl">Books:  $</string>
+    <string name="str_OtherFeesLbl">Other Fees:  $</string>
+    <string name="str_TotalEdCostLbl">Total Education Costs: $</string>
+    <string name="str_AcceptBtn">ACCEPT</string>
+
+
+</resources>

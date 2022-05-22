@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_BudgetTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_BudgetSummaryTitle"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_MonthlyBudget"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#9000BCD4"
+                android:text="@string/str_MonthlyBudgetTitle"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_IncomeLbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#9000BCD4"
+                android:text="@string/str_IncomeLbl"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#9000BCD4"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_EarningsLbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/str_EarningsLbl"
+                    android:textAlignment="textEnd" />
+
+                <EditText
+                    android:id="@+id/et_Earnings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Monthly earnings"
+                    android:inputType="numberDecimal"
+                    android:text="0" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#9000BCD4"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_LoansLbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/str_LoansLbl"
+                    android:textAlignment="textEnd" />
+
+                <EditText
+                    android:id="@+id/et_Loans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Monthly loans"
+                    android:inputType="numberDecimal"
+                    android:text="0" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#9000BCD4"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_TotalIncomeLbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/str_TotalIncomeLbl"
+                    android:textAlignment="textEnd"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_calc_TotalIncome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="TBD"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_ExpensesTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B53F51B5"
+                android:text="@string/str_ExpensesTitle"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_CalcExpenses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_CalculateExpBtn" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B53F51B5"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_TotalExpenses"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_TotalMonthExpensesLbl"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_calc_TotalExpenses1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="TBD"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B5FFC107"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_SurplusShortfall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_SurplusShortfallLbl"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_calc_SurplusShortfall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="TBD"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
