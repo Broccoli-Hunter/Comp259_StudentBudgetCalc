@@ -4,7 +4,7 @@ Comp 259 (Mobile Application Development I) final project
 * March 2022
 * Grade = 100%
 
-###Objective
+### Objective
 * Create an Android app to track a monthly budget for a student
 * App should implement one Activity and two Fragments: first screen for Earnings/Loans, second screen for Expenses
 * Logic layer will calculate total Income, Total Expenses, and Surplus/Shortfall amounts
